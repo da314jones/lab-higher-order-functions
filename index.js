@@ -63,7 +63,7 @@ function map(array, callback) {
   for (let element of array) {
    result.push(callback(element))
   }
-  return result;
+  return result
 }
 
 /**
